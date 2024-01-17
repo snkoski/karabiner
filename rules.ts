@@ -45,30 +45,44 @@ const rules: KarabinerRules[] = [
   ...createHyperSubLayers({
     // o = "Open" applications
     o: {
-      g: app("Google Chrome"),
-      c: app("Cron"),
-      v: app("Visual Studio Code"),
+      a: app("Arc"),
       d: app("Discord"),
-      s: app("Slack"),
-      e: app("Superhuman"),
-      n: app("Notion"),
-      t: app("Terminal"),
+      f: app("Figma"),
+      g: app("Google Chrome"),
       // Open todo list managed via *H*ypersonic
       h: open(
         "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
       ),
-      z: app("zoom.us"),
-      m: app("Mochi"),
-      f: app("Figma"),
-      r: app("Telegram"),
-      // "i"Message
-      i: app("Messages"),
-      p: app("Spotify"),
-      a: app("iA Presenter"),
-      w: open("https://web.whatsapp.com"),
       l: open(
         "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
       ),
+      n: app("Notion"),
+      p: app("Spotify"),
+      s: app("Slack"),
+      t: app("Todoist"),
+      v: app("Visual Studio Code - Insiders"),
+      w: app("Warp"),
+      z: app("zoom.us"),
+    },
+    spacebar: {
+      description: "Hyper Key + Spacebar",
+      to: [{ key_code: "delete_or_backspace" }],
+    },
+    j: {
+      description: "Hyper Key + j to left arrow",
+      to: [{ key_code: "left_arrow" }],
+    },
+    k: {
+      description: "Hyper Key + k to down arrow",
+      to: [{ key_code: "down_arrow" }],
+    },
+    l: {
+      description: "Hyper Key + l to up arrow",
+      to: [{ key_code: "up_arrow" }],
+    },
+    semicolon: {
+      description: "Hyper Key + semicolon to right arrow",
+      to: [{ key_code: "right_arrow" }],
     },
 
     // w = "Window" via rectangle.app
