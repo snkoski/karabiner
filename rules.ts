@@ -46,20 +46,20 @@ const rules: KarabinerRules[] = [
     // o = "Open" applications
     o: {
       a: app("Arc"),
-      d: app("Discord"),
-      f: app("Figma"),
-      g: app("Google Chrome"),
+      g: app("Discord"),
+      e: app("Finder"),
+      c: app("Google Chrome"),
       // Open todo list managed via *H*ypersonic
-      h: open(
-        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
-      ),
-      l: open(
-        "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
-      ),
-      n: app("Notion"),
-      p: app("Spotify"),
-      s: app("Slack"),
-      t: app("Todoist"),
+      // h: open(
+      //   "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
+      // ),
+      // l: open(
+      //   "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
+      // ),
+      j: app("Notion"),
+      r: app("Spotify"),
+      d: app("Slack"),
+      f: app("Todoist"),
       v: app("Visual Studio Code - Insiders"),
       w: app("Warp"),
       z: app("zoom.us"),
