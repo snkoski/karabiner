@@ -52,7 +52,7 @@ const rules: KarabinerRules[] = [
       c: app("Google Chrome"),
       d: app("Slack"),
       e: app("Finder"),
-      f: app("Todoist"),
+      f: app("Warp"),
       g: app("Figma"),
       // Open todo list managed via *H*ypersonic
       // h: open(
