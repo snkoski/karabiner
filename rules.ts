@@ -44,11 +44,16 @@ const rules: KarabinerRules[] = [
   },
   ...createHyperSubLayers({
     // o = "Open" applications
+    // Karabiner maps the key_code to the QWERTY layout and doesn't adjust it for colemak
+    // so we need to use the QWERTY key_code here
     o: {
       a: app("Arc"),
-      g: app("Discord"),
-      e: app("Finder"),
+      b: app("Firefox Developer Edition"),
       c: app("Google Chrome"),
+      d: app("Slack"),
+      e: app("Finder"),
+      f: app("Todoist"),
+      g: app("Figma"),
       // Open todo list managed via *H*ypersonic
       // h: open(
       //   "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
@@ -57,9 +62,9 @@ const rules: KarabinerRules[] = [
       //   "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
       // ),
       j: app("Notion"),
-      r: app("Spotify"),
-      d: app("Slack"),
-      f: app("Todoist"),
+      l: app("Visual Studio Code - Insiders"),
+      m: app("Spotify"),
+      t: app("Warp"),
       v: app("Visual Studio Code - Insiders"),
       w: app("Warp"),
       z: app("zoom.us"),
@@ -83,6 +88,27 @@ const rules: KarabinerRules[] = [
     semicolon: {
       description: "Hyper Key + semicolon to right arrow",
       to: [{ key_code: "right_arrow" }],
+    },
+    // left_command = "Moddified movmensts"
+    left_command: {
+      h: {
+        to: [{ key_code: "left_arrow", modifiers: ["left_command"] }],
+      },
+      j: {
+        to: [{ key_code: "left_arrow", modifiers: ["left_option"] }],
+      },
+      k: {
+        to: [{ key_code: "down_arrow", modifiers: ["left_command"] }],
+      },
+      l: {
+        to: [{ key_code: "up_arrow", modifiers: ["left_command"] }],
+      },
+      semicolon: {
+        to: [{ key_code: "right_arrow", modifiers: ["left_option"] }],
+      },
+      quote: {
+        to: [{ key_code: "right_arrow", modifiers: ["left_command"] }],
+      },
     },
 
     // w = "Window" via rectangle.app
