@@ -80,6 +80,11 @@
                   },
                   {
                     "type": "variable_if",
+                    "name": "hyper_sublayer_h",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
                     "name": "hyper_sublayer_k",
                     "value": 0
                   },
@@ -91,6 +96,11 @@
                   {
                     "type": "variable_if",
                     "name": "hyper_sublayer_semicolon",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_quote",
                     "value": 0
                   },
                   {
@@ -514,6 +524,33 @@
             ]
           },
           {
+            "description": "Hyper Key + h",
+            "manipulators": [
+              {
+                "to": [
+                  {
+                    "key_code": "left_arrow",
+                    "modifiers": [
+                      "left_option"
+                    ]
+                  }
+                ],
+                "type": "basic",
+                "from": {
+                  "key_code": "h",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_command",
+                      "left_control",
+                      "left_shift",
+                      "left_option"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
             "description": "Hyper Key + k",
             "manipulators": [
               {
@@ -589,6 +626,33 @@
             ]
           },
           {
+            "description": "Hyper Key + quote",
+            "manipulators": [
+              {
+                "to": [
+                  {
+                    "key_code": "right_arrow",
+                    "modifiers": [
+                      "left_option"
+                    ]
+                  }
+                ],
+                "type": "basic",
+                "from": {
+                  "key_code": "quote",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_command",
+                      "left_control",
+                      "left_shift",
+                      "left_option"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
             "description": "Hyper Key sublayer \"left_command\"",
             "manipulators": [
               {
@@ -639,6 +703,11 @@
                   },
                   {
                     "type": "variable_if",
+                    "name": "hyper_sublayer_h",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
                     "name": "hyper_sublayer_k",
                     "value": 0
                   },
@@ -650,6 +719,11 @@
                   {
                     "type": "variable_if",
                     "name": "hyper_sublayer_semicolon",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_quote",
                     "value": 0
                   },
                   {
@@ -888,6 +962,11 @@
                   },
                   {
                     "type": "variable_if",
+                    "name": "hyper_sublayer_h",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
                     "name": "hyper_sublayer_k",
                     "value": 0
                   },
@@ -899,6 +978,11 @@
                   {
                     "type": "variable_if",
                     "name": "hyper_sublayer_semicolon",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_quote",
                     "value": 0
                   },
                   {
@@ -1369,6 +1453,11 @@
                   },
                   {
                     "type": "variable_if",
+                    "name": "hyper_sublayer_h",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
                     "name": "hyper_sublayer_k",
                     "value": 0
                   },
@@ -1380,6 +1469,11 @@
                   {
                     "type": "variable_if",
                     "name": "hyper_sublayer_semicolon",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_quote",
                     "value": 0
                   },
                   {
@@ -1700,6 +1794,11 @@
                   },
                   {
                     "type": "variable_if",
+                    "name": "hyper_sublayer_h",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
                     "name": "hyper_sublayer_k",
                     "value": 0
                   },
@@ -1711,6 +1810,11 @@
                   {
                     "type": "variable_if",
                     "name": "hyper_sublayer_semicolon",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_quote",
                     "value": 0
                   },
                   {
@@ -2010,6 +2114,11 @@
                   },
                   {
                     "type": "variable_if",
+                    "name": "hyper_sublayer_h",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
                     "name": "hyper_sublayer_k",
                     "value": 0
                   },
@@ -2021,6 +2130,11 @@
                   {
                     "type": "variable_if",
                     "name": "hyper_sublayer_semicolon",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_quote",
                     "value": 0
                   },
                   {
@@ -2172,6 +2286,11 @@
                   },
                   {
                     "type": "variable_if",
+                    "name": "hyper_sublayer_h",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
                     "name": "hyper_sublayer_k",
                     "value": 0
                   },
@@ -2183,6 +2302,11 @@
                   {
                     "type": "variable_if",
                     "name": "hyper_sublayer_semicolon",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_quote",
                     "value": 0
                   },
                   {

@@ -77,6 +77,9 @@ const rules: KarabinerRules[] = [
       description: "Hyper Key + j to left arrow",
       to: [{ key_code: "left_arrow" }],
     },
+    h: {
+      to: [{ key_code: "left_arrow", modifiers: ["left_option"] }],
+    },
     k: {
       description: "Hyper Key + k to down arrow",
       to: [{ key_code: "down_arrow" }],
@@ -88,6 +91,9 @@ const rules: KarabinerRules[] = [
     semicolon: {
       description: "Hyper Key + semicolon to right arrow",
       to: [{ key_code: "right_arrow" }],
+    },
+    quote: {
+      to: [{ key_code: "right_arrow", modifiers: ["left_option"] }],
     },
     // left_command = "Moddified movmensts"
     left_command: {
